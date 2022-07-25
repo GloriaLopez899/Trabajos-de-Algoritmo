@@ -1,0 +1,17 @@
+Algoritmo Añobisiesto
+	Definir inicial, final Como Entero
+	Escribir "Ingresar primer año"
+	leer inicial
+	Escribir "Ingresar último año"
+	leer final
+	Si (inicial>=final) Entonces
+		Escribir "El año de inicio es mayor o igual al año final"
+	Sino 
+		Para i<-inical Hasta final Con Paso 1 Hacer
+			Si (i mod 4 = 0) Entonces
+				Escribir " ", i
+			Fin Si
+		Fin Para
+	FinSi
+FinAlgoritmo
+	

@@ -1,0 +1,14 @@
+Algoritmo Numeroprimo
+	Escribir "Ingresa un número"
+	Leer valor1
+	Para numer<-1 Hasta valor1 Hacer
+		Si valor1 % numer = 0 Entonces
+			contar <- contar+1
+		Fin Si
+	Fin Para
+	Si contar = 2 Entonces
+		Escribir valor1, "Es primo"
+	SiNo
+		Escribir valor1,"No es primo"
+	Fin Si
+FinAlgoritmo
